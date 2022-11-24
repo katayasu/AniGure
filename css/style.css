@@ -719,20 +719,12 @@ a{
     }
 }
 
-@media (max-device-width: 800px) and (orientation: portrait) {
+@media (max-device-width: 900px) and (orientation: portrait) {
 
     .container {
         position: relative;
         width: 700px;
         margin: 0 auto;
-    }
-
-    .clearfix:after {
-        content: ".";
-        display: block;
-        height: 0;
-        clear: both;
-        visibility: hidden;
     }
 
     header {
@@ -873,12 +865,15 @@ a{
     main {
         background: url("../img/bg1.png");
         position: relative;
+        height: 600px;
         background-size: cover;
     }
 
     .main-info img {
-        width: 600px;
-        margin-left: 50px;
+        width: 900px;
+        margin-top: 50px;
+        margin-left: -80px;
+        padding-bottom: 90px;
     }
 
     .main-bg {
@@ -905,9 +900,9 @@ a{
 
     .main-info .btn {
         position: absolute;
-        bottom: 50px;
-        left: 80px;
-        width: 200px;
+        bottom: 150px;
+        left: -40px;
+        width: 300px;
     }
 
     .main-info .btn a {
