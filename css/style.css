@@ -478,6 +478,10 @@ a{
         display: grid;
         grid-template-areas: "1 2 3";
     }
+    
+    .open-filters {
+        display: none;
+    }
 
     .product-card {
         display: flex;
