@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Comic Sans MS";
-    src: url("https://katayasu.github.io/AniGure/fonts/Comic Sans MS.ttf") format('truetype');
+    src: url("../fonts/Comic Sans MS.ttf") format('truetype');
 
 }
 body {
@@ -478,7 +478,7 @@ a{
         display: grid;
         grid-template-areas: "1 2 3";
     }
-    
+
     .open-filters {
         display: none;
     }
@@ -881,6 +881,11 @@ a{
         width: 75px;
         position: absolute;
         top: 0;
+    }
+
+    .err {
+        width: 900px;
+        background-color: #EEE1DB;
     }
 
     .err404 {
