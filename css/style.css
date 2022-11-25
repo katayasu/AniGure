@@ -1228,6 +1228,7 @@ a{
     }
 
     .open-filters {
+        display: inherit;
         position: absolute;
         z-index: 9999;
         margin-left: -70px;
