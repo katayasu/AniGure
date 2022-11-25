@@ -1,4 +1,10 @@
 @charset "utf-8";
+
+@font-face {
+    font-family: "Comic Sans MS";
+    src: url("../../fonts/Comic Sans MS.ttf") format('truetype');
+
+}
 body {
     overflow-x: hidden;
     width: 100%;
